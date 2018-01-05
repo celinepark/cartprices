@@ -13,3 +13,7 @@ The total cart price is in cents.
 
 - Clone the directory
 - Use this format to run the application: `run cart.py cart-9500.json prices-ex-1.json`
+
+
+### Note:
+The Github user @hmc-f17-ostrich is actually a school account of mine but to avoid confusion I have changed that account username to @celine-park. I worked on this project alone.
