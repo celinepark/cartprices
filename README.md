@@ -3,7 +3,10 @@
 ## About
 This application takes in two JSON files: a cart file and a base prices file.
 It then calculates the total cart price using the information from both files in the following manner:
+
 item price = (base_price + round(base_price * artist_markup in cents)) * quantity, where artist_markup is a percentage
+
+The total cart price is in cents.
 
 
 ## To run the application:
