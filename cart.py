@@ -14,7 +14,7 @@ def parseFiles(fileName):
 """
 Takes in two command-line arguments, referring to two JSON files
 Then calculates each item's price using the following metric:
-    (base_price + round(base_price * artist_markup in cents)) * quantity where artist_markup is a percentages
+    (base_price + round(base_price * artist_markup in cents)) * quantity where artist_markup is a percentage
 Finally, it prints the total cart price to the command line followed by a newline character
 """
 def main():
@@ -79,8 +79,6 @@ def main():
 
     # Print total price with a newline character following it
     print(totalPrice, "\n")
-
-# run cart.py "cart-ex-1.json" "prices-ex-1.json"
 
 
 
