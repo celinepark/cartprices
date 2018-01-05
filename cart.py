@@ -21,7 +21,8 @@ def main():
 
     # Error Handling for Command Line Arguments
     if len(sys.argv) != 3:
-        sys.exit("Please make sure to include the cart and base prices JSON file as command-line arguments")
+        print("Usage: cart.py [Cart JSON File] [Base Prices JSON File]")
+        sys.exit("Please make sure to include the cart and base prices JSON files as command-line arguments")
 
     # Save arguments as variables
     cartFile = sys.argv[1]
@@ -76,7 +77,7 @@ def main():
         # Add item price to the total cart price
         totalPrice += itemPrice
 
-    # Pr    
+    # Print total price with a newline character following it
     print(totalPrice, "\n")
 
 # run cart.py "cart-ex-1.json" "prices-ex-1.json"
@@ -85,3 +86,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
