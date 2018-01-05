@@ -12,4 +12,4 @@ The total cart price is in cents.
 ## To run the application:
 
 - Clone the directory
-- Use this format to run the application: `run cart.py cart-ex-1.json prices-ex-1.json`
+- Use this format to run the application: `run cart.py cart-9500.json prices-ex-1.json`
